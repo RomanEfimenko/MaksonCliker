@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color:#fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#fff;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background: url(media/img/background.png) repeat;
+}
+
+header {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#fixed {
+  width:200px;
+  position:absolute;
+  left: 85%;
+  top: 10%;
+  color: #ff1e1e;
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.logo {
+  color: #491b00;
+  /*background: #eee;*/
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 44px;
+  cursor: pointer;
+  margin-top: 36px;
+  margin-left: 10%;
+}
+
+.score {
+  color: #af540e;
+  margin-top: 40px;
+  margin-left: 33%;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 38px;
+}
+
+.score p{
+  text-align: left;
+}
+
+.main {
+  display: flex;
+  height: 1000px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.menu h4 {
+  color: #491b00;
+  font-weight: 800;
+  font-size: 36px;
+  margin: 20px 0 10px 20%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: 7%;
+  padding-top: 90px;
+}
+
+
+
+.navigation div {
+  width: 44px;
+  height: 35px;
+  cursor: pointer;
+  background: #e2cd98;/*#e2cd98*//*#ff8949*/
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+  border-radius: 14%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.navigationBtn p:hover{
+  /*box-shadow: 0 0 20px rgba(0,0,0,0.7);*/
+}
+
+.menuBtns p {
+  color: #491b00;
+}
+
+.postUpdate {
+  cursor: pointer;
+  background: url(media/img/backgroundDop.jpg) repeat;
+  display: flex;
+  padding: 5px;
+  margin: 10px 10px 0 0;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 10%;
+}
+
+.postUpdate:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+.postUpdateImage img {
+  width: 80px;
+  height: 80px;
+  margin: 3px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.postUpdateInfo {
+  width: 100%;
+  margin: 3px;
+}
+
+.postUpdateName p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 10px 0 10px 0;
+}
+
+.postUpdateCosts {
+  display: flex;
+}
+
+.postUpdateSale {
+  width: 50%;
+}
+
+.postUpdateUp {
+  width: 50%;
+}
+
+.postUpdateSale p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 17px;
+  margin: 10px 0 10px 0;
+}
+
+.postUpdateSale p span{
+  color: #af540e;
+}
+
+.postUpdateUp p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 17px;
+  margin: 10px 0 10px 0;
+}
+
+.postUpdateUp p span{
+  color: #af540e;
+}
+
+.face {
+  width: 45%;
+}
+
+.defoultFace {
+  cursor: pointer;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(media/img/backgroundFace.jpg) repeat;
+  width: 320px;
+  height: 320px;
+  border-radius: 160px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.defoultFace img{
+  margin: 25px;
+  width: 270px;
+  height: 270px;
+  border-radius: 135px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.defoultFace:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+.stats {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #491b00;
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.statClik p {
+  margin: 10px 0 20px 0;
+}
+
+.statAvtomat p {
+  margin: 10px 0 20px 0;
+}
+
+.statStatus p {
+  margin: 10px 0 0 0;
+}
+
+footer {
+  display: flex;
+  background-color: #000;
+}
+
+.by {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.maksonrespectemail {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scoreAnimation {
+  color: #ff903a;
+  font-size: 40px;
+  opacity: 1;
+}
+
+.descr{
+    font-size: 18px;
+    display:none;
+    padding:10px;
+    margin-top:17px;
+    background:#f3f3f3;
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);
+}
+
+.postUpdateSale:hover .descr{
+    display:block;
+    position:absolute;
+    z-index:9999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.audioBox {
+  display: none;
+}
