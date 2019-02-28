@@ -29,7 +29,7 @@ function menuHtml2() {
   result = result + postaWrite(7, 'media/img/a7.png', 200, 'Нейролингвистическое программирование');
   result = result + h4Write('Действия');
   result = result + postdWrite(1, 'media/img/d1.png', arrayDeistvie[0].culdown, 'Помочь маме');
-  result = result + postdWrite(2, 'media/img/d2.png', arrayDeistvie[1].culdown, 'Идти нахуй');
+  result = result + postdWrite(2, 'media/img/d2.png', arrayDeistvie[1].culdown, 'Послать своих зрителей');
   return result;
 };
 
